@@ -1,0 +1,197 @@
+body{
+    margin: 0;
+}
+
+
+
+body{
+    height: 600px;
+    background-image:url(https://www.wallpaperuse.com/wallp/3-34248_m.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-x: center;
+    background-position-y: center;
+    background-attachment: fixed;
+}
+
+
+
+
+
+
+
+
+
+.prueba{
+    width: 100%;
+    min-height: 500px;
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+td{
+    color: rgb(253, 253, 253);
+}
+
+
+
+table, th,td{
+    border-style:ridge;
+    border-width: 2px solid;
+    border-color: rgb(251, 255, 0);
+}
+
+
+table{
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+td img{
+    width: 70%;
+}
+
+th{
+    height: 60px;
+    background-color:rgb(0, 0, 0);
+    color:rgb(255, 230, 0);
+    text-decoration: underline;
+    
+}
+
+td{
+    height: 80px;
+    vertical-align: middle;    /*bottom=abajo, middle=centro, top=arriba*/
+}
+
+
+
+
+ul{
+    list-style-type: style type auto;/*quitar viñetas*/
+    margin: 0;/*espacio externo*/
+    padding: 2;/*espacio interno*/
+    overflow:hidden;/*texto flotante este en el cuadro*/
+    background-color: rgb(0, 0, 0);
+    
+    
+}
+
+
+
+
+li{
+    float:left;/*texto flotante*/
+    
+}
+
+li a{
+    display:block;
+    color: rgb(252, 101, 0);
+    text-align: center;
+    padding: 15px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: black;
+}
+
+/*seudocodigo que cambia al pasar el mouse*/
+
+li a:hover{
+    
+    color: rgb(253, 249, 2);
+}
+
+header{
+    text-transform:capitalize;
+    text-align: center;
+    color: rgb(252, 101, 0);
+    text-decoration:underline;
+    background-position: center center;
+	
+	background-size:cover;
+    
+}
+
+
+
+h2{
+    
+    padding-top: 2rem;
+    padding-left: 2rem;
+    text-decoration: underline;
+    color: rgb(21, 255, 0);
+    font-size: xx-large;
+    text-transform:capitalize;
+    
+}
+
+img{
+    border-radius: 10px;
+    width: 65%;
+    border: 2px inset rgb(0, 0, 0); 
+    padding: 2px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img:hover{
+    transform:scaleX(-1);
+}
+
+
+
+footer{
+    background-color: yellow;
+    text-align: center;
+    color: yellow;
+    text-decoration:underline;
+    background-position: center center;
+	background-image: url("https://img.freepik.com/vector-gratis/banner-negro-formas-geometricas-amarillas_1017-32327.jpg?w=2000");
+	background-size: cover;
+}
+#OSAMA{
+    font-size: x-large;
+}
+
+#OSAM{
+    font-size:130%;
+}
+
+#ORION{
+    font-size:130%;
+}
+
+#CANIS{
+    font-size:130%;
+}
+
+#LEO{
+    font-size:130%;
+}
+
+#TAURO{
+    font-size:130%;
+}
+
+#CASIOPEA{
+    font-size:130%;
+}
+
+#ESCORPIO{
+    font-size:130%;
+}
+
+#ANDROMEDA{
+    font-size:130%;
+}
+
+#CRUZ{
+    font-size:130%;
+}

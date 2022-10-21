@@ -1,0 +1,82 @@
+*{
+    color: yellow;
+}
+
+
+body{
+    background-image: url(https://img.freepik.com/vector-premium/fondo-abstracto-azul-negro-dorado-simple-moderno-plantilla-diseno-presentacion_181182-17444.jpg);
+    background-size: cover;
+}
+
+
+#subtitulo{
+    font-size: xx-large;
+    color: yellow;
+}
+
+h3{
+    font-size: xx-large;
+}
+
+input[type=text]{
+    width: 50%;
+    margin: 8px 0;
+    padding: 12px 12px;
+    box-sizing: border-box;
+    background-color: aqua;
+    
+}
+
+ul{
+    list-style-type: style type auto;/*quitar viñetas*/
+    margin: 0;/*espacio externo*/
+    padding: 2;/*espacio interno*/
+    overflow:hidden;/*texto flotante este en el cuadro*/
+    background-color: rgb(0, 0, 0);
+    
+    
+}
+
+
+li a:hover{
+    
+    color: rgb(253, 249, 2);
+}
+li{
+    float:left;/*texto flotante*/
+    
+}
+
+li a{
+    display:block;
+    color: rgb(252, 101, 0);
+    text-align: center;
+    padding: 15px 16px;
+    text-decoration: none;
+}
+
+input[type=number]{
+    width: 30%;
+    margin: 4px 0;
+    padding: 12px 8px;
+    border: 1px solid red;
+    border-radius: 5px;
+}
+
+input[type=password]{
+
+    border-bottom: 2px solid blue;
+    border:none;
+}
+
+
+
+/*entradas enfocadas  --> focus */
+
+input[type=text]:focus{
+    background-color: palevioletred;
+
+
+}
+
+

@@ -1,0 +1,95 @@
+
+
+
+
+
+body{
+    height: 600px;
+    background-image:url("https://www.eltiempo.com/files/article_main/uploads/2020/12/09/5fd1466c9bad3.jpeg") ;
+    background-repeat: no-repeat;
+    background-size: 110%; ;
+    background-position-x:center ;
+    background-position-y:center ;
+    background-attachment:fixed ;  /* scrool texto se movera contigo  y fixed para la imagen estatica*/
+}
+
+
+ul{
+    list-style-type: none; /*quitar viñetas*/
+    margin: 0; /*espacio externo*/
+    padding: 0; /*espacio interno*/
+    overflow: hidden; /*texto flotante esté en el cuadro*/
+    background-color: rgb(20, 20, 20);
+}
+
+li {
+    float: left; /*texto flotante*/
+}
+
+li a {
+    display: block;
+    color: rgb(255, 251, 13);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+h1{
+    margin: 0;
+    padding-top: 2rem;
+    padding-left:3rem;
+}
+
+/* Pseudocodigo que  cambia al pasar el mouse  */
+li a:hover{
+    background-color: rgb(255, 238, 0);
+    color: rgb(0, 0, 0);
+}
+
+
+header{
+    background-color: yellow;
+    text-align: center;
+    color: yellow;
+    text-decoration:underline;
+    background-position: center center;
+	background-image: url(https://img.freepik.com/vector-gratis/banner-negro-formas-geometricas-amarillas_1017-32327.jpg?w=2000);
+	background-size:cover;
+}
+
+p{
+    font-size: x-large;
+    color:yellow;
+}
+
+h4{
+    color: rgb(241, 238, 8);
+    text-decoration:underline ; /* text decoration para poner subtitulos o tachar palabras*/   
+    text-transform: initial; /* text transform para hacerlo minuscula o mayuscula o una letra gigante */  
+    letter-spacing: 3px;    /*sirve para separar las letras*/
+    font-family: Arial, Helvetica, sans-serif;
+    font-style:italic;    /*cursiva*/
+    font-weight: bold;    /*negrita*/
+    text-shadow: 1px 1px 1px black;  /*sombras: sombra  horizontal , sombra vertical, desenfoque y color asi respectivamente en el mismo orden*/
+}       
+
+
+h2{
+    color:yellow;
+}
+
+
+footer{
+    background-color: yellow;
+    text-align: center;
+    color: yellow;
+    text-decoration:underline;
+    background-position: center center;
+	background-image: url("https://img.freepik.com/vector-gratis/banner-negro-formas-geometricas-amarillas_1017-32327.jpg?w=2000");
+	background-size: cover;
+}
+
+
